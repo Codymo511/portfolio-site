@@ -1,0 +1,53 @@
+body,a,navbar{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #14181a;
+    color: #f3f5f6;
+}
+
+.navbar a{
+    color: #f3f5f6;
+}
+button{
+    color: #f3f5f6;
+}
+
+.intro-container{
+    padding-bottom: 505px;
+}
+
+.intro{
+padding-top: 100px;
+text-align: center;
+}
+
+.intro h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.intro h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.github-btn{
+    background-image: url('images/GitHub-Mark-Light-32px.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height:32px;
+}
+
+.linkedin-btn{
+    background-image: url('images/In-White-34.png');
+    background-repeat: no-repeat;
+    width: 32px;
+    height:32px;
+}
+
+.project-container{
+    padding-top:4px;
+    background-color: white;
+    border-top: white;
+    border-radius: 50px;
+    color: black;
+}
