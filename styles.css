@@ -10,9 +10,13 @@ body,a,navbar{
 button{
     color: #f3f5f6;
 }
+.navbar{
+    border-bottom: .5px solid rgba(255, 255, 255, 0.16);
+}
 
-.intro-container{
-    padding-bottom: 505px;
+
+.navbar-brand{
+font-size: 30px;
 }
 
 .intro{
@@ -21,13 +25,13 @@ text-align: center;
 }
 
 .intro h1{
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 5rem;
+    font-weight: 900;
 }
 
 .intro h3{
-    font-size: 23px;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .github-btn{
@@ -44,10 +48,82 @@ text-align: center;
     height:32px;
 }
 
+.featured{
+    padding-top: 425px;
+    color: white;
+}
+
 .project-container{
-    padding-top:4px;
-    background-color: white;
+    padding-top:20px;
+    
     border-top: white;
+    border-bottom: none;
     border-radius: 50px;
     color: black;
+    height: 1000px;
+    border-color: transparent;
 }
+.designo{
+    background-image: url('images/Designo.jpg');
+    width: 480px;
+    height: 350px;
+    border-radius: 15px;
+    border:solid black .5px;
+}
+
+.designo-info{
+    color:#b7c1c8;
+}
+
+.external-link{
+    background-image: url('images/external-link.png');
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+
+.js-logo{
+    background-image: url('images/javascript-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 32px;
+}
+
+.html-logo{
+    background-image: url('images/html-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 32px;
+}
+.css-logo{
+    background-image: url('images/css-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40px;
+    width: 32px;
+}
+
+@media(min-width:800px) {
+    .designo:hover{
+        top:-50px;
+        left:-35px;
+        width: 480px;
+        height:600px;
+        z-index:999;
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        z-index: 10;
+    }
+}
+
+
+.designo-info{
+    background-color: transparent
+}
+
+html { font-size: calc(.8em + 1vw); }
